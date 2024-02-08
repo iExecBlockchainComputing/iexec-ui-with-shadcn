@@ -2,7 +2,7 @@
 
 We assume you have **a working React + Vite project** (with or without TypeScript)
 
-It currently supports only dark mode.
+It currently only supports dark mode.
 
 Bear in mind that this is **work in progress**.
 
@@ -88,8 +88,6 @@ npm i react-feather
 
 ### Button
 
-![Buttons screenshot](Buttons.png)
-
 ```tsx
 import { ArrowUpRight, Loader } from 'react-feather';
 import { Button } from '@/components/ui/button.tsx';
@@ -120,6 +118,8 @@ function App() {
   );
 }
 ```
+
+![Buttons screenshot](Buttons.png)
 
 ### Input
 
