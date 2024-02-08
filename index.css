@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* iExec Yellow/iexec-yellow-200 = #F9DD90 */
+    --yellow-200: 44 90% 77%;
+
+    /* iExec Yellow/iexec-yellow-300 = #FCD15A */
+    --yellow-300: 44 96% 67%;
+
+    /* Grey/grey-50 = #FCFCFC = rgb(252 252 252) */
+    --grey-50: 0 0% 99%;
+
+    /* Grey/grey-100 = #F2F2F7 */
+    --grey-100: 240 24% 96%;
+
+    /* Grey/grey-500 = #82828E = rgb(130 130 142) */
+    --grey-500: 240 5% 53%;
+
+    /* Grey/grey-700 = #303038 = rgb(48 48 56) */
+    --grey-700: 240 8% 20%;
+
+    /* Grey/grey-800 = #1D1D24 = rgb(29 29 36) */
+    --grey-800: 240 11% 13%;
+
+    /* Grey/grey-900 = #0D0D12 */
+    --grey-900: 240 16% 6%;
+
+    /* Green/green-50 = #F1FDF9 */
+    --green-50: 160 75% 97%;
+
+    /* Green/green-600 = #00A36E */
+    --green-600: 160 100% 32%;
+
+    /* Orange/orange-50 = #FFF8F0 */
+    --orange-50: 32 100% 97%;
+
+    /* Orange/orange-500 = #DA7B0B */
+    --orange-500: 32 90% 45%;
+
+    --primary: var(--yellow-300);
+    --primary-foreground: var(--grey-800);
+
+    --accent: var(--grey-100);
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --background: var(--grey-900);
+    --foreground: var(--grey-50);
+
+    --success: var(--green-50);
+    --success-foreground: var(--green-600);
+
+    --danger: var(--orange-50);
+    --danger-foreground: var(--orange-500);
+
+    /* border */
+    --button: var(--grey-800);
+
+    /* ring */
+    --ring: 222.2 84% 4.9%;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+}
