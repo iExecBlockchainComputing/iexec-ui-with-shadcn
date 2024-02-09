@@ -1,6 +1,6 @@
 # iexec-ui-with-shadcn
 
-We assume you have **a working React + Vite project** (with or without TypeScript)
+We assume you have **a working React + Vite + TypeScript project**
 
 It currently only supports dark mode.
 
