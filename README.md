@@ -119,7 +119,7 @@ function App() {
 }
 ```
 
-![Buttons screenshot](Buttons.png)
+<img src="Buttons.png" width="350">
 
 ### Input
 
