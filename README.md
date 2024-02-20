@@ -1,6 +1,22 @@
 # iexec-ui-with-shadcn
 
+This repo **is not** a frontend app.
+
+This repo **is not** a starter template.
+
+This repo is **a guide** to integrate **shadcn/ui** and give it **an iExec look** :art:
+
+## Some assumptions
+
 We assume you have **a working React + Vite + TypeScript project**
+
+Otherwise you can create one with:
+
+```
+npm create vite@latest my-new-app -- --template react-swc-ts
+```
+
+We assume you have already worked with **shadcn/ui** and **Tailwind CSS**.
 
 It currently only supports dark mode.
 
@@ -61,10 +77,15 @@ It is a starting point, you'll probably need to add more classes to fit your nee
 
 ### 4- Install fonts
 
+Base font: _Mulish_
+
+Title font: _Anybody_ with spacial `fontVariationSettings` (See `tailwind.config.js`)
+
+NavBar app title font: _Space Mono_
+
 ```sh
-npm i @fontsource-variable/anybody \
-  @fontsource/anybody \
-  @fontsource/mulish \
+npm i @fontsource/mulish \
+  @fontsource-variable/anybody \
   @fontsource/space-mono
 ```
 
