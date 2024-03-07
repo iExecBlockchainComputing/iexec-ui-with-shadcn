@@ -4,6 +4,9 @@
 
 @layer base {
   :root {
+    /* iExec Yellow/iexec-yellow-50 = #FEFBF0 */
+    --yellow-50: 47 88% 97%;
+
     /* iExec Yellow/iexec-yellow-200 = #F9DD90 */
     --yellow-200: 44 90% 77%;
 
@@ -15,6 +18,9 @@
 
     /* Grey/grey-100 = #F2F2F7 */
     --grey-100: 240 24% 96%;
+
+    /* Grey/grey-300 = #D3D3D8 */
+    --grey-300: 240 6% 84%;
 
     /* Grey/grey-500 = #82828E = rgb(130 130 142) */
     --grey-500: 240 5% 53%;
